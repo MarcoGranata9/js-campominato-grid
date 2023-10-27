@@ -5,17 +5,35 @@ padding: 0;
 box-sizing: border-box;
 }
 
+header {
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 143);
+}
+
+#playbtn {
+    background-color: yellow;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#playbtn:hover {
+    background-color: rgb(255, 255, 123);
+    cursor: pointer;
+}
+
 .wrapper {
     width: 100%;
     height: 100vh;
     background-color: lightseagreen;
-    display: flex;
-    align-items: center;
 }
 
 .container {
-    width: 1000px;
-    margin: 0 auto;
+    width: 800px;
+    margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -33,4 +51,8 @@ box-sizing: border-box;
 
 .click {
     background-color: aqua;
+}
+
+.hidden {
+    display: none;
 }

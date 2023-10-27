@@ -10,3 +10,7 @@ Aggiungere una select accanto al bottone di generazione, che fornisca una scelta
 - con difficoltà 2 => 81 caselle, con un numero compreso tra 1 e 81, divise in 9 caselle per 9 righe;
 - con difficoltà 3 => 49 caselle, con un numero compreso tra 1 e 49, divise in 7 caselle per 7 righe;
 
+## Soluzione 
+1. Creare un event listener sul bottone per far comparire la griglia di gioco
+2. Inserire le celle tramite js 
+
