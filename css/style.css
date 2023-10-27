@@ -14,6 +14,16 @@ header {
     background-color: rgb(230, 230, 143);
 }
 
+.mr10 {
+    margin-right: 10px;
+}
+
+#difficulty {
+    background-color: yellow;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
 #playbtn {
     background-color: yellow;
     padding: 10px 20px;
@@ -47,6 +57,24 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.boxmed {
+    border: 1px solid black;
+    width: calc(100% / 9);
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxhard {
+    border: 1px solid black;
+    width: calc(100% / 7);
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
 
 .click {
